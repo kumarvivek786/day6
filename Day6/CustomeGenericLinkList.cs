@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Day6
 {
-    internal class CustomeGenericLinkList
+    public class CustomeGenericLinkList<T>
     {
         private Node<T> head;
 

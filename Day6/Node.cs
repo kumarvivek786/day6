@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Day6
 {
-    public class Node
+    public class Node<T>
     {
         public T data;
         public Node<T> next;
